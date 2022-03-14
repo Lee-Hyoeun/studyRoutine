@@ -1,3 +1,3 @@
-# WepforJava
-To study Java basics everyday
-ajaaja
+# Study
+To study basics everyday
+
