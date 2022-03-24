@@ -26,7 +26,7 @@ public class a4MaxOfArray {
 		int[] height = new int[num]; //요소수가 num인 배열을 생성
 		
 		for(int i=0; i<num; i++) {
-			System.out.println("(height["+i+"] : ");
+			System.out.println("height["+i+"] : ");
 			height[i] = sc.nextInt();
 		}
 		
