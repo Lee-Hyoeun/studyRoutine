@@ -17,6 +17,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>TenServlet</servlet-name>
-    <url-pattern>/ten</url-pattern>
+    <url-pattern>/ttt</url-pattern>
   </servlet-mapping>
 </web-app>
