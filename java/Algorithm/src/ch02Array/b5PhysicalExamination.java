@@ -75,6 +75,5 @@ public class b5PhysicalExamination {
 		for(int i=0; i<VMAX; i++) {
 			System.out.printf("%3.1f~:%2d명\n", i/10.0, vdist[i]);
 		}
-		
 	}
 }
