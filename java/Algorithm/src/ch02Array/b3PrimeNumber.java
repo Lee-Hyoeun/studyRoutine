@@ -19,5 +19,4 @@ public class b3PrimeNumber {
 		}
 		System.out.println("나눗셈을 수행한 횟수: "+cnt);
 	}
-
 }
