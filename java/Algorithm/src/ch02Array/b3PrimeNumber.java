@@ -1,7 +1,7 @@
 package ch02Array;
 // 1000 이하의 소수를 열거(버전1)
 
-public class b1PrimeNumber1 {
+public class b3PrimeNumber {
 	public static void main(String[] args) {
 		int cnt = 0; //나눗셈 횟수
 		
