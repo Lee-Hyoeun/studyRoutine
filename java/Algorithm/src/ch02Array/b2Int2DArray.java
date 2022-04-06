@@ -1,7 +1,7 @@
 package ch02Array;
 // 2행 4열의 2차원 배열
 
-public class b1Int2DArray {
+public class b2Int2DArray {
 	public static void main(String[] args) {
 		int[][] x = new int[2][4]; //2차원 배열을 선언
 		
