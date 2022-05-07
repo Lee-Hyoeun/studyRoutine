@@ -48,6 +48,13 @@ public class a1IntStack {
 		return stk[--ptr];
 	}
 	
+	
+	// 스택에서 데이터를 피크(정상에 있는 데이터를 들여다보기)
+	public int peek() throws EmptyIntStackException{
+		if(ptr <= 0) { //스택이 비어있음
+			throw new EmptyIntStackException();
+		}
+		return stk[ptr -1];
+	}
 
 }
-	
