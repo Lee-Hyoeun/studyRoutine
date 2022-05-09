@@ -26,7 +26,7 @@ public class LifecycleServlet extends HttpServlet {
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-        System.out.println("init 호출!");
+        System.out.println("init test 호출!"); //수정하면 이전init은 destroy호출되고 새로 생성
 	}
 
 	/**
