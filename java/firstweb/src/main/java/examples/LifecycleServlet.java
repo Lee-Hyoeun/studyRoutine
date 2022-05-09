@@ -19,29 +19,28 @@ public class LifecycleServlet extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public LifecycleServlet() {
-        super();
-        // TODO Auto-generated constructor stub
+        System.out.println("LifecycleServlet 생성!");
     }
 
 	/**
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		// TODO Auto-generated method stub
+        System.out.println("init 호출!");
 	}
 
 	/**
 	 * @see Servlet#destroy()
 	 */
 	public void destroy() {
-		// TODO Auto-generated method stub
+        System.out.println("destroy 호출!");
 	}
 
 	/**
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+        System.out.println("service 호출!");
 	}
 
 }
