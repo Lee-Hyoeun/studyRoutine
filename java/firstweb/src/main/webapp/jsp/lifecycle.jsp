@@ -13,5 +13,16 @@ hello~
 	System.out.println("_jspService()");
 %>
 
+
+<%!
+public void jspInit() {
+	System.out.println("jspInit()!!!!");
+}
+
+public void jspDestroy() {
+	System.out.println("jspDestroy()");
+}
+%>
+
 </body>
 </html>
