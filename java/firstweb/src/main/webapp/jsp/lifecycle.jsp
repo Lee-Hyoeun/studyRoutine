@@ -8,5 +8,10 @@
 </head>
 <body>
 
+hello~
+<%
+	System.out.println("_jspService()");
+%>
+
 </body>
 </html>
