@@ -1,6 +1,8 @@
 package examples;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -26,7 +28,13 @@ public class FrontServlet extends HttpServlet {
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
+		int diceValue = (int)(Math.random() *6)+1;
+		request.setAttribute("dice", diceValue);
+		
+		RequestDispatcher requestDispatcher = request.getRequestDispatcher("/next");
+		requestDispatcher.forward(request, response);
+		
 	}
 
 }
