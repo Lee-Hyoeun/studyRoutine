@@ -34,11 +34,16 @@ public class ApplicationScope02 extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		ServletContext application = getServletContext(); //application scope에서 웹어플리케이션 영역=getServletContext객체=인터페이스를 구현하는 애
-		int value = 1;
-		application.setAttribute("value",value); //setAttribute에 맡김
+		try {
 		
+		int value = (int)application.getAttribute("value");
+		value++;
+		application.setAttribute("value",value);
 		out.println("<h1>value : "+value+"/<h1>");
 		
+		}catch (NullPointerException e) {
+			out.print("value의 값이 설정되지 않았습니다.");
+		}
 	}
 
 }
