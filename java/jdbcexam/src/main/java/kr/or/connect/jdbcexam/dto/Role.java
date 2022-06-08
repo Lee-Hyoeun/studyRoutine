@@ -5,6 +5,10 @@ public class Role {
 	private String description;
 	
 	
+	public Role() {
+
+	}
+	
 	public Role(Integer roleId, String description) {
 		super();
 		this.roleId = roleId;
