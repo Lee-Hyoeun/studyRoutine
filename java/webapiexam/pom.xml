@@ -14,11 +14,14 @@
   <url>http://www.example.com</url>
 
   <properties>
-  	<!-- web.xml 파일을 삭제해도 eclipse에서 오류가 발생하지 않는다. -->
-	<failOnMissingWebXml>false</failOnMissingWebXml>
+  	
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    
+    <!-- web.xml 파일을 삭제해도 eclipse에서 오류가 발생하지 않는다. -->
+	<!-- 이번실습은 web.xml대신 @어노테이션을 사용해서 서블릿을 설정할 예정! -->
+	<failOnMissingWebXml>false</failOnMissingWebXml>
   </properties>
 
   <dependencies>
