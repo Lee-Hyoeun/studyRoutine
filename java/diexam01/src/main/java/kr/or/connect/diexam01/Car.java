@@ -1,7 +1,12 @@
 package kr.or.connect.diexam01;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Car {
-	//필드
+	//필드 알아서 주입(setEngine 대신!)
+	@Autowired
 	private Engine v8;
 
 	//디폴트 생성자
