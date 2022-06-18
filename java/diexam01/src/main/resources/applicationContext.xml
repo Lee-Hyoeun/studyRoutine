@@ -6,4 +6,9 @@
 	<!-- UserBean userBean - new UserBean();와 같은 의미 -->
 	<bean id="userBean" class="kr.or.connect.diexam01.UserBean"></bean>
 
+	<bean id="e" class="kr.or.connect.diexam01.Engine"></bean>
+	<!-- car인스턴스에 엔진을 셋 -->
+	<bean id="car" class="kr.or.connect.diexam01.Car">
+		<property name="engine" ref="e"></property>
+	</bean>
 </beans>
