@@ -21,13 +21,13 @@ public class Car {
 	}
 	
 	
-	public static void main(String[] args) {
-		Engine e = new Engine();
-		Car c = new Car();
-		c.setEngine(e);
-		c.run();
+//	public static void main(String[] args) {
+//		Engine e = new Engine();
+//		Car c = new Car();
+//		c.setEngine(e);
+//		c.run();
 		//순서 유의해서 잘 보기!
 		//이런 과정을 spring의 bean에 등록하고 대신 해주도록 함!(applicationContext.xml에 빈 등록)
-	}
+//	}
 	
 }
