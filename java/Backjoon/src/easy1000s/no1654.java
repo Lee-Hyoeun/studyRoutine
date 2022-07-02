@@ -1,4 +1,4 @@
-package 1000s;
+package easy1000s;
 
 import java.io.BufferedReader;
 import java.io.IOException;

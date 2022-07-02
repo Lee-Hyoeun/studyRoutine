@@ -1,4 +1,4 @@
-package 2000s;
+package easy2000s;
 
 import java.io.BufferedReader;
 import java.io.IOException;
