@@ -12,16 +12,16 @@ import kr.or.connect.guestbook.service.GuestbookService;
 public class GuestbookServiceTest {
 
 	public static void main(String[] args) {
-		ApplicationContext ac = new AnnotationConfigApplicationContext(ApplicationConfig.class); 
+		ApplicationContext ac = new AnnotationConfigApplicationContext(ApplicationConfig.class);
 		GuestbookService guestbookService = ac.getBean(GuestbookService.class);
-		
+
 		Guestbook guestbook = new Guestbook();
 		guestbook.setName("이앤지");
 		guestbook.setContent("내별명은 이효은. 여러분. 사랑해요~~^^22");
 		guestbook.setRegdate(new Date());
 		Guestbook result = guestbookService.addGuestbook(guestbook, "127.0.0.1");
 		System.out.println(result);
-		
+
 	}
 
 }

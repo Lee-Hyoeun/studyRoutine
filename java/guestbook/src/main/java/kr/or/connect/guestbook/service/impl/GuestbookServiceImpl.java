@@ -18,7 +18,7 @@ import kr.or.connect.guestbook.service.GuestbookService;
 public class GuestbookServiceImpl implements GuestbookService{
 	@Autowired
 	GuestbookDao guestbookDao;
-	
+
 	@Autowired
 	LogDao logDao;
 
@@ -47,17 +47,17 @@ public class GuestbookServiceImpl implements GuestbookService{
 		guestbook.setRegdate(new Date());
 		Long id = guestbookDao.insert(guestbook);
 		guestbook.setId(id);
-		
+
 //		if(1 == 1)
 //			throw new RuntimeException("test exception");
-//			
+//
 		Log log = new Log();
 		log.setIp(ip);
 		log.setMethod("insert");
 		log.setRegdate(new Date());
 		logDao.insert(log);
-		
-		
+
+
 		return guestbook;
 	}
 
@@ -65,6 +65,6 @@ public class GuestbookServiceImpl implements GuestbookService{
 	public int getCount() {
 		return guestbookDao.selectCount();
 	}
-	
-	
+
+
 }

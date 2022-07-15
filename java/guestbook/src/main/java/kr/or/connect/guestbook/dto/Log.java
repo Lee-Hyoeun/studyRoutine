@@ -7,7 +7,7 @@ public class Log {
 	private String ip;
 	private String method;
 	private Date regdate;
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -32,8 +32,8 @@ public class Log {
 	public void setRegdate(Date regdate) {
 		this.regdate = regdate;
 	}
-	
-	
+
+
 	@Override
 	public String toString() {
 		return "Log [id=" + id + ", ip=" + ip + ", method=" + method + ", regdate=" + regdate + "]";

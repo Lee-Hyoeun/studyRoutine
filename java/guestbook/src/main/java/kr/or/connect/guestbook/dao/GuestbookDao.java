@@ -19,10 +19,9 @@ import kr.or.connect.guestbook.dto.Guestbook;
 
 import static kr.or.connect.guestbook.dao.GuestbookDaoSqls.*;
 
-
 @Repository
 public class GuestbookDao {
-	 private NamedParameterJdbcTemplate jdbc;
+		private NamedParameterJdbcTemplate jdbc;
 	    private SimpleJdbcInsert insertAction;
 	    private RowMapper<Guestbook> rowMapper = BeanPropertyRowMapper.newInstance(Guestbook.class);
 
@@ -32,7 +31,7 @@ public class GuestbookDao {
 	                .withTableName("guestbook")
 	                .usingGeneratedKeyColumns("id");
 	    }
-	    
+
 	    public List<Guestbook> selectAll(Integer start, Integer limit) {
 	    		Map<String, Integer> params = new HashMap<>();
 	    		params.put("start", start);
@@ -45,12 +44,12 @@ public class GuestbookDao {
 			SqlParameterSource params = new BeanPropertySqlParameterSource(guestbook);
 			return insertAction.executeAndReturnKey(params).longValue();
 		}
-		
+
 		public int deleteById(Long id) {
 			Map<String, ?> params = Collections.singletonMap("id", id);
 			return jdbc.update(DELETE_BY_ID, params);
 		}
-		
+
 		public int selectCount() {
 			return jdbc.queryForObject(SELECT_COUNT, Collections.emptyMap(), Integer.class);
 		}
