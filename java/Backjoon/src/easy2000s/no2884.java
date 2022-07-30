@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
  
-public class no2885_2 {
+public class no2884 {
 	public static void main(String[] args) throws IOException {
     
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
