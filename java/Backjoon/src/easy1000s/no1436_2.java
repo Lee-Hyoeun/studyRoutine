@@ -1,4 +1,4 @@
-package easy2000s;
+package easy1000s;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 
-//public class no1436 {
+//public class no1436_2 {
 //	public static void main(String[] args) {
 //		
 //		Scanner sc = new Scanner(System.in);
