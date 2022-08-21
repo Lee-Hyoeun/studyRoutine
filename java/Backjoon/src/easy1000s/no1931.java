@@ -1,10 +1,10 @@
-package 1000s;
+package easy1000s;
 
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Comparator;
  
-public class Main {
+public class no1931 {
  
 	public static void main(String[] args) {
  
