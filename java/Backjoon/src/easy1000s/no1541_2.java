@@ -1,9 +1,11 @@
+package easy1000s;
+
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
- 
-public class Main {
+
+public class no1541_2 {
  
 	public static void main(String[] args) throws IOException {
  
