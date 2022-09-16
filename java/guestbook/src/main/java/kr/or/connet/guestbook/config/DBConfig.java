@@ -30,8 +30,8 @@ public class DBConfig implements TransactionManagementConfigurer {
 		dataSource.setPassword(password);
 		return dataSource;
 	}
-	
-	
+
+
 	@Override
 	public PlatformTransactionManager annotationDrivenTransactionManager() {
 		return transactionManger();
