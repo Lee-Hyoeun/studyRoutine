@@ -2,7 +2,7 @@ package ch06Sort;
 
 import java.util.Scanner;
 
-// 버블 정렬(버전 1)
+// 버블 정렬(버전 3)
 
 public class a3BubbleSort3 {
 	// a[idx1]와 a[idx2]의 값을 바꾸기
