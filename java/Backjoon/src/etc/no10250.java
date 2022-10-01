@@ -29,7 +29,7 @@ import java.util.StringTokenizer;
 //		}
 //	}
 //}
-
+//123556
 
 public class no10250 {
 	public static void main(String[] args) throws IOException {
