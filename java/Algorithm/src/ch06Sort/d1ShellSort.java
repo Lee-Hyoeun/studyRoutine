@@ -3,7 +3,7 @@ package ch06Sort;
 
 import java.util.Scanner;
 
-public class c2ShellSort {
+public class d1ShellSort {
 	// 셀 정렬
 	static void shellSort(int[] a, int n) {
 		for(int h=n/2; h>0; h/=2) {
