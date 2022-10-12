@@ -2,7 +2,7 @@ package easy1000s;
 
 import java.util.Scanner;
  
-public class no1300 {
+public class no1300_2 {
  
 	public static void main(String[] args) {
 		
