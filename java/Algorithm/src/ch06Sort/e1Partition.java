@@ -38,7 +38,18 @@ public class e1Partition {
 		if(pl>pr+1) {
 			System.out.println("피벗과 일치하는 그룹");
 			for(int i=pr+1; i<=pl-1; i++)	//a[p+1]~a[pl-1]
+				System.out.print(a[i] + " ");
+			System.out.println();	
 		}
+		
+		if(pl > pr +1) {
+			System.out.println("피벗과 일치하는 그룹");
+			for(int i=pr+1; i<=pl-1; i++)	//a[pr+1]~a[pl-1]
+				System.out.print(a[i] + " ");
+			System.out.println();	
+		}
+		
+		
 	
 	}
 
