@@ -1,5 +1,7 @@
 package ch06Sort;
 
+import java.util.Scanner;
+
 // 배열 나누기
 
 
@@ -51,5 +53,21 @@ public class e1Partition {
 	}
 	
 	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("배열을 나눕니다.");
+		System.out.print("요솟수");
+		int nx = sc.nextInt();
+		int[] x = new int[nx];
+		
+		for(int i=0; i<nx; i++) {
+			System.out.print("x["+i+" ]: ");
+			x[i] = sc.nextInt();
+		}
+		e1Partition(x, nx);		// 배열 x를 나눔
+		
+		
+	}
 
 }
