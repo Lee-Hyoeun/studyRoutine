@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class no1951_2 {
+public class no9251_2 {
 
 	static char[] str1;
 	static char[] str2;
