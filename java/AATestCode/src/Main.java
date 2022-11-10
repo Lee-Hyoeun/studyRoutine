@@ -1,20 +1,31 @@
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
 	       
-		   String str = "a.b.c";
-		   
-	        String[] strArr1 = str.split("[.]");
-	        String[] strArr2 = str.split("\\.");
-	 
-	        System.out.println(Arrays.toString(strArr1));  // [a, b, c]
-	        System.out.println(Arrays.toString(strArr2));  // [a, b, c]
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.next();
+				
+		String[] arr = str.split("-");
+		
+		System.out.print(arr[0]+arr[1]);
+		
+
 	}
 }
 
-		
-//1번
+//19번 
+//2번학습
+//String str = "a.b.c";
+//
+//String[] strArr1 = str.split("[.]");
+//String[] strArr2 = str.split("\\.");
+//
+//System.out.println(Arrays.toString(strArr1));  // [a, b, c]
+//System.out.println(Arrays.toString(strArr2));  // [a, b, c]
+
+//1번학습
 //		Scanner sc = new Scanner(System.in);
 //	    
 //		String a = sc.next();	    
