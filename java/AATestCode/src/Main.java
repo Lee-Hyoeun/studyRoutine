@@ -2,18 +2,20 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		
+		//43번 
 
-		//42번 정수 2개 입력받아 나눈 몫으로 출력하기
-	    Scanner sc = new Scanner(System.in);
-
-	    int a = sc.nextInt();
-	    int b = sc.nextInt();
-
-	    System.out.printf("%d",a/b);
 		
 	}
 }
 
+////42번 정수 2개 입력받아 나눈 몫으로 출력하기
+//Scanner sc = new Scanner(System.in);
+//
+//int a = sc.nextInt();
+//int b = sc.nextInt();
+//
+//System.out.printf("%d",a/b);
 
 ////41번 문자 1개 입력받아 다음 문자 출력하기
 //Scanner sc = new Scanner(System.in);
