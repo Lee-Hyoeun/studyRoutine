@@ -2,12 +2,47 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		
-		//43번 
 
+		// 69번 평가 입력받아 다르게 출력
+		Scanner sc = new Scanner(System.in);
+		String a = sc.nextLine();
+		
+		if(a=="A")	System.out.println("best!");
+			else if(a=="B") System.out.println("good!");
+			else if(a=="C") System.out.println("run!");
+			else if(a=="D") System.out.println("slowy~");
+			else System.out.println("What!!!");
 		
 	}
 }
+
+//
+//// 67번 정수 1개 입력받아 음/양, 짝/홀 출력
+//Scanner sc = new Scanner(System.in);
+//
+//int value = sc.nextInt();
+//
+//if (value < 0) {
+//  System.out.println("minus");
+//  if (value % 2 == 0)
+//    System.out.println("even");
+//  else 
+//    System.out.println("odd");
+//} else {
+//  System.out.println("plus");
+//  if (value % 2 == 0)
+//    System.out.println("even");
+//  else
+//    System.out.println("odd");
+//}  
+//int a = sc.nextInt();
+//
+//if(a>0) System.out.println("양");
+//else System.out.println("음");
+//
+//if(a%2==0) System.out.println("짝");
+//else System.out.println("홀");
+
 
 ////42번 정수 2개 입력받아 나눈 몫으로 출력하기
 //Scanner sc = new Scanner(System.in);
