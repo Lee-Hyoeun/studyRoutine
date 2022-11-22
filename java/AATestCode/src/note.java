@@ -3,6 +3,262 @@ public class note {
 }
 
 /**
+ * 기초 입출력 28~83번
+ * 
+ * */
+
+////1083번 3 6 9의 왕
+//Scanner sc = new Scanner(System.in);
+//
+//int num = sc.nextInt();
+//
+//for(int i=1; i<10; i++) {
+//if(i%3==0) {
+//	System.out.print('x'); 
+//
+//} else 
+//	System.out.printf(" %d ", i);
+//}
+
+////1082번 16진수 구구단
+//Scanner sc = new Scanner(System.in);
+//
+//int num = sc.nextInt(16);
+//int mul;
+//for(int i=0; i<=num; i++) {
+//mul=i*num;
+//System.out.printf("%o ", mul);
+//}
+
+////1081번 n,m 주사위 2개던져서 나올 수 있는 경우의 수
+//Scanner sc = new Scanner(System.in);
+//
+//int n = sc.nextInt();
+//int m = sc.nextInt();
+//
+//for(int i=1;i<=n;i++) {
+//for(int j=1; j<=m; j++) {
+//	System.out.printf("%d x %d \n", i,j);
+//}
+//}
+
+////1080번 1,2,3계속 더할 떄 입력한 정수 n까지더하기
+//Scanner sc = new Scanner(System.in);
+//int n = sc.nextInt();
+//int hap=0;
+//int i=1;
+//for(i=1; i<n;i++) {
+//hap +=i;
+//
+//if(hap>=n) {
+//	break;
+//}
+//}
+//System.out.println(i);
+
+//1079번 'q'가 입력될때까지 입력한 문자 계속 출력
+//	Scanner sc = new Scanner(System.in);
+//	
+//	while(true) {
+//		char c = sc.nextLine().charAt(0);
+//		System.out.println(c);
+//		if(c=='q')
+//			break;
+//	}
+
+
+////1078번 정수입력받아 그 수 까지 짝수의 합
+//for 버전
+//Scanner sc = new Scanner(System.in);
+//int n = sc.nextInt();
+//int hap=0;
+//
+//for(int i=0; i<=n;i++) {
+//	
+//	if(i%2==0) {
+//		hap+=i;		
+//	}
+//}
+//System.out.printf("%d \n",hap);	
+//do while버전
+//Scanner sc = new Scanner(System.in);
+//int n=sc.nextInt();
+//int a=0, hap=0;
+//
+//do {
+//	hap+=a;
+//	a+=2;
+//	System.out.printf("%d, %d, %d\n", a, hap, n);
+//} while(a<=n);
+//
+//System.out.printf("최종: %d, %d, %d \n", a, hap, n);
+
+//while문 테스트
+//int a=0, hap=0;
+//while(a<5) {
+//a++;
+//hap+=a;
+//System.out.printf("%d, %d\n", a, hap);
+//
+//}
+//
+//System.out.printf("최종: %d, %d", a, hap);
+
+//76번		
+//Scanner sc = new Scanner(System.in);
+//
+//char value = sc.nextLine().charAt(0);
+//
+//for(char i='a'; i<=value; i++) {
+//System.out.println(i);
+//} 
+//방법2
+//Scanner sc = new Scanner(System.in);
+//char s = sc.nextLine().charAt(0);
+//char a = 'a';
+//
+//do {
+//System.out.print(a+ " ");
+//a+=1;
+//} while(a<=s);
+
+////74번 정수1개입력받아 카운트다운하기
+//	Scanner sc = new Scanner(System.in);
+//	int n = sc.nextInt();
+//	
+//		for(int i=n; i>0; i--) {
+//			System.out.println(i);
+//		}
+//		
+//	    //for(int i=n; i>0; i--)
+//	      //  System.out.println(i);
+
+////72번 정수 입력받아 계속 출력하기
+//Scanner sc = new Scanner(System.in);
+//
+//int n = sc.nextInt();
+//int arr[] = new int[n];
+//
+//for(int i=0; i<n; i++) {
+//arr[i]=sc.nextInt();
+//}
+//
+//for(int i=0; i<n; i++) {
+//System.out.println(arr[i]);
+//}
+
+////71번 0이 입력될때까찌 반복실행(자바는 while사용 가능)
+//Scanner sc = new Scanner(System.in);
+//
+//while(true) {
+//int n = sc.nextInt();
+//
+//if(n==0) {
+//	break;
+//}
+//
+//System.out.println(n);
+//}
+
+////69번 평가 입력받아 다르게 출력
+//Scanner sc = new Scanner(System.in);
+//String a = sc.nextLine();
+//
+//if(a=="A")	System.out.println("best!");
+//else if(a=="B") System.out.println("good!");
+//else if(a=="C") System.out.println("run!");
+//else if(a=="D") System.out.println("slowy~");
+//else System.out.println("What!!!");
+
+//
+////67번 정수 1개 입력받아 음/양, 짝/홀 출력
+//Scanner sc = new Scanner(System.in);
+//
+//int value = sc.nextInt();
+//
+//if (value < 0) {
+//System.out.println("minus");
+//if (value % 2 == 0)
+//System.out.println("even");
+//else 
+//System.out.println("odd");
+//} else {
+//System.out.println("plus");
+//if (value % 2 == 0)
+//System.out.println("even");
+//else
+//System.out.println("odd");
+//}  
+//int a = sc.nextInt();
+//
+//if(a>0) System.out.println("양");
+//else System.out.println("음");
+//
+//if(a%2==0) System.out.println("짝");
+//else System.out.println("홀");
+
+
+////42번 정수 2개 입력받아 나눈 몫으로 출력하기
+//Scanner sc = new Scanner(System.in);
+//
+//int a = sc.nextInt();
+//int b = sc.nextInt();
+//
+//System.out.printf("%d",a/b);
+
+////41번 문자 1개 입력받아 다음 문자 출력하기
+//Scanner sc = new Scanner(System.in);
+//
+//char ch = sc.next().charAt(0);
+//char nextCh = (char)((int)ch+1);
+//
+//System.out.printf("%c",nextCh);
+
+////40번 정수 1개 입력받아 부호바꿔 출력하기
+//Scanner sc = new Scanner(System.in);
+//
+//long a = sc.nextLong();
+//
+//System.out.printf("-%d",a);
+
+//	//38,39번 정수 2개 입력받아 합 출력하기
+//	Scanner sc = new Scanner(System.in);
+//	
+//	long a = sc.nextLong();
+//	long b = sc.nextLong();
+//	long c = a+b;
+//	System.out.println(c);
+
+
+////31번 10진정수 1개 입력받아 8진수로 출력하기
+//Scanner sc = new Scanner(System.in);
+//int num = sc.nextInt();
+//
+//System.out.printf("%o",num);
+
+////30번 정수 1개 입력받아 그대로 출력하기(단, 입력되는 정수 범위 -9223372036854775808 ~ +9223372036854775807)
+//Scanner sc = new Scanner(System.in);
+//long lNum = sc.nextLong();
+//
+//System.out.printf("%d", lNum);
+//
+
+////29번 실수 1개 입력받아 그대로 출력하기
+////(단, 실수범위 +-1.7*10-308~+-1.7*10308, 소숫점 이하 11자리까지 반올림하여 출력)
+//Scanner sc = new Scanner(System.in);
+//double num = sc.nextDouble();
+//
+//System.out.printf("%.11f",num);
+
+////28번 정수 1개 입력받아 그대로 출력하기(단, 입력되는 정수의 범위 0~4,294,967,295)
+//Scanner sc = new Scanner(System.in);
+//
+//long num = sc.nextLong();
+//
+//System.out.println(num);
+
+
+/**
  * 기초 입출력 1~27번
  * 
  * */
