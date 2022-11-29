@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 
-public class no2630_2.java {
+public class no2630_2 {
 	
 	// 색상 카운트 할 변수 및 색종이(board)
 	public static int white = 0;
