@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class no1444_2{
+public class no11444_2{
 	
 	final static long MOD = 1000000007;
 	
