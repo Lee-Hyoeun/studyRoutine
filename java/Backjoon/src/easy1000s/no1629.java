@@ -2,7 +2,7 @@ package easy1000s;
 
 import java.util.Scanner;
 
-public class Main {
+public class no1629 {
 
 	public static long C;
 	
