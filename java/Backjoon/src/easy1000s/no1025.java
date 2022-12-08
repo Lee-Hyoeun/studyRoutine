@@ -41,7 +41,7 @@ public class no1025 {
 	                            if (Math.abs(Math.sqrt(t) - (int)Math.sqrt(t)) < 1e-10){ // 완전 제곱수인지 판별합니다.
 	                                result = Math.max(result, t);
 	                            }
-	                            newI += mi; /
+	                            newI += mi; 
 	                            newJ += mj;
 	                        }
 	 
