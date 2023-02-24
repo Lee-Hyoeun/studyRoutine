@@ -1,4 +1,4 @@
-package easy2000s;
+package easy1000s;
 
 import java.util.Scanner;
 
