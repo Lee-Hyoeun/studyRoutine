@@ -7,7 +7,7 @@ public class no10030 {
 		Scanner sc = new Scanner(System.in);
 		int score[] = new int[5];
 		int sum = 0;
-		int avg;
+		int avg=0;
 		for (int i = 0; i < score.length; i++) {
 			score[i] = sc.nextInt();
 			// 5의배수
