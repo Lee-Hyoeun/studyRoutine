@@ -2,7 +2,7 @@ package etc;
 
 import java.util.Scanner;
 
-public class no2438 {
+public class no2437 {
 
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(System.in);
