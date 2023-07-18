@@ -15,7 +15,7 @@ public class no10030 {
 				i--;
 				System.out.println("5의배수를 입력해주세요");
 			}
-			// 40점 미만학생들은 40점으로 고정
+			
 			if (score[i] < 40) {
 				score[i] = 40;
 			}
