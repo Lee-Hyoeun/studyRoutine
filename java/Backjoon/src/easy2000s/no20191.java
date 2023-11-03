@@ -3,7 +3,7 @@ package easy2000s;
 import java.io.*;
 import java.util.*;
 
-public class no2010 {
+public class no20191 {
     static long[] arr;
     static long[] tree;
 
